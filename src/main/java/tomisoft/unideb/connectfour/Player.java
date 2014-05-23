@@ -23,7 +23,7 @@ public enum Player {
 	B, 
 	
 	/**
-	 * Player C.
+	 * Represents a NULL value.
 	 */
 	NONE
 }

@@ -14,7 +14,8 @@ import java.util.logging.Logger;
 import javax.swing.*;
 
 /**
- * Main window class of the game
+ * Main window class of the game.
+ * 
  * @author Sinku Tamás
  */
 public class frmMainWindow extends javax.swing.JFrame {
@@ -119,7 +120,7 @@ public class frmMainWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
 	/**
-	 * New game menu item onclick event
+	 * New game menu item onclick event.
 	 * 
 	 * @param evt the event arguments
 	 */
