@@ -24,7 +24,7 @@ public class BoardIllegalColumnException extends Exception {
 	 * @return the game board's column index.
 	 */
     public int getColumn() {
-        return Column;
+        return this.Column;
     }
 
     /**

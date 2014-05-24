@@ -295,11 +295,34 @@ public class frmMainWindow extends javax.swing.JFrame {
 	}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+	/**
+	 * Game menu.
+	 */
     private javax.swing.JMenu jMenu1;
+	
+	/**
+	 * Help menu.
+	 */
     private javax.swing.JMenu jMenu2;
+	
+	/**
+	 * Menu bar.
+	 */
     private javax.swing.JMenuBar jMenuBar1;
+	
+	/**
+	 * A menu separator.
+	 */
     private javax.swing.JPopupMenu.Separator jSeparator1;
+	
+	/**
+	 * Exit menu item.
+	 */
     private javax.swing.JMenuItem miExit;
+	
+	/**
+	 * New Game menu item.
+	 */
     private javax.swing.JMenuItem miNewGame;
     // End of variables declaration//GEN-END:variables
 }
