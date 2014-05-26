@@ -172,6 +172,26 @@ public class frmMainWindow extends javax.swing.JFrame {
 			}
 		}
 	}
+	
+	/**
+	 * An event handler that occures when the game has ended.
+	 */
+	public void OnGameEnded() {
+		String NameA = JOptionPane.showInputDialog("Player A Name:");
+		String NameB = JOptionPane.showInputDialog("Player B Name:");
+		
+		MHighScores scores = new MHighScores();
+		
+		if (!NameA.isEmpty()) {
+			scores.UpdatePlayer(NameA, this.GameController.getBoard().GetWinnerPlayer() == Player.A);
+		}
+		if (!NameB.isEmpty()) {
+			scores.UpdatePlayer(NameB, this.GameController.getBoard().GetWinnerPlayer() == Player.B);
+		}
+		
+		frmHighScores frm = new frmHighScores(scores);
+		frm.setVisible(true);
+	}
 
 	/**
 	 * Initializes the game field.
@@ -216,6 +236,7 @@ public class frmMainWindow extends javax.swing.JFrame {
 						Player winner = gc.getBoard().GetWinnerPlayer();
 						if (winner != Player.NONE) {
 							JOptionPane.showMessageDialog(frm, "Player "+winner.toString()+" has won");
+							OnGameEnded();
 							DeleteControls();
 						}
 					}
