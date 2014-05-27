@@ -10,6 +10,14 @@
 	<name>ConnectFour</name>
 	<url>http://maven.apache.org</url>
 	
+	<description>
+		Ez a projekt egy Connect Four implementáció. Egy 5*5-ös táblára két játékos
+		felváltva helyez egy-egy zsetont. Az a játékos nyer, akinek kijön
+		4 zseton egymás mellett, egymás alatt, vagy átlósan. A szoftver képes
+		ranglistát vezetni arról, hogy ki hány játékot nyert meg, illetve veszített
+		el.
+	</description>
+	
 	<developers>
 		<developer>
 			<id>std66</id>
