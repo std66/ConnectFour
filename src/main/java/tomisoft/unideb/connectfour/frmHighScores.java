@@ -15,7 +15,9 @@ import javax.swing.table.DefaultTableModel;
 public class frmHighScores extends javax.swing.JFrame {
 
 	/**
-	 * Creates new form frmHighScores
+	 * Creates new form frmHighScores.
+	 * 
+	 * @param Model an instance of the model class for handling data
 	 */
 	public frmHighScores(MHighScores Model) {
 		initComponents();

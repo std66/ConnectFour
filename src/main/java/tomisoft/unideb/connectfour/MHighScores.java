@@ -112,6 +112,12 @@ public class MHighScores {
 		}
 	}
 	
+	/**
+	 * Gets that the given player is exists in the database.
+	 * 
+	 * @param Name the player's name
+	 * @return true if the player exists, false otherwise
+	 */
 	private boolean IsPlayerExists(String Name) {
 		try {
 			Statement s = this.c.createStatement();
