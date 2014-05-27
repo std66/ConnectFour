@@ -10,6 +10,15 @@
 	<name>ConnectFour</name>
 	<url>http://maven.apache.org</url>
 	
+	<developers>
+		<developer>
+			<id>std66</id>
+			<name>Sinku Tamás</name>
+			<email>sinkutamas@gmail.com</email>
+			<organization>TomiSoft</organization>
+		</developer>
+	</developers>
+	
 	<build>
 		<plugins>
 			<plugin>

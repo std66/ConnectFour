@@ -148,7 +148,7 @@ public class frmMainWindow extends javax.swing.JFrame {
 	 * @param evt the event arguments
 	 */
     private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
-        JOptionPane.showMessageDialog(this, "TomiSoft Scrabble\nCopyright (C) 2014:"
+        JOptionPane.showMessageDialog(this, "TomiSoft Scrabble\nCopyright (C) 2014: "
 				+ "TomiSoft\n\nVersion: 1.0");
     }//GEN-LAST:event_jMenu2MouseClicked
 

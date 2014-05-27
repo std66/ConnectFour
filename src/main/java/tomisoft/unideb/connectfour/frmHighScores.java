@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Sinku Tamás
  */
-public class frmHighScores extends javax.swing.JFrame {
+public class frmHighScores extends javax.swing.JDialog {
 
 	/**
 	 * Creates new form frmHighScores.
@@ -41,7 +41,7 @@ public class frmHighScores extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -93,14 +93,7 @@ public class frmHighScores extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-	/**
-	 * JScrollPane1.
-	 */
     private javax.swing.JScrollPane jScrollPane1;
-	
-	/**
-	 * JTable1.
-	 */
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
